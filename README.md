@@ -34,6 +34,22 @@ Another useful iterator method is .filter(). Like .map(), .filter() returns a ne
 >  return word.length < 6;
 >});
 >
-
 visit here for the coding solution:
 https://gist.github.com/f56795e2e52e0698621f9d7f6ec9911c
+
+
+### The .findIndex() Method
+We sometimes want to find the location of an element in an array. That’s where the .findIndex() method comes in! Calling .findIndex() on an array will return the index of the first element that evaluates to true in the callback function.
+
+>const jumbledNums = [123, 25, 78, 5, 9]; 
+ 
+>const lessThanTen = jumbledNums.findIndex(num => {
+>  return num < 10;
+> });
+jumbledNums is an array that contains elements that are numbers.
+const lessThanTen = declares a new variable that stores the returned index number from invoking .findIndex().
+The callback function is an arrow function has a single parameter, num. Each element in the jumbledNums array will be passed to this function as an argument.
+num < 10; is the condition that elements are checked against. .findIndex() will return the index of the first element which evaluates to true for that condition.
+
+visit here for the coding solution:
+https://gist.github.com/f853dc34535c377508e585c1cb5d4e52
