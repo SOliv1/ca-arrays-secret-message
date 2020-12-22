@@ -53,3 +53,19 @@ num < 10; is the condition that elements are checked against. .findIndex() will 
 
 visit here for the coding solution:
 https://gist.github.com/f853dc34535c377508e585c1cb5d4e52
+
+
+### The .reduce() Method
+Another widely used iteration method is .reduce(). The .reduce() method returns a single value after iterating through the elements of an array, thereby reducing the array. Take a look at the example below:
+
+>const numbers = [1, 2, 4, 10];
+ 
+>const summedNums = numbers.reduce((accumulator, currentValue) => {
+> return accumulator + currentValue
+> })
+ 
+> console.log(summedNums) // Output: 17
+> Here are the values of accumulator and currentValue as we iterate through the numbers array:
+
+visit here for the coding solution:
+https://gist.github.com/f75160385128495fb7dfe3db74707dae
