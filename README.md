@@ -1,4 +1,4 @@
-# ca-arrays-secret-message(s)
+# ca-arrays-secret-message(s) and other array methods
 
 Objective
 ## LEARN JAVASCRIPT  - Coding Methods
@@ -71,3 +71,19 @@ Another widely used iteration method is .reduce(). The .reduce() method returns 
 
 visit here for the coding solution:
 https://gist.github.com/f75160385128495fb7dfe3db74707dae
+
+### Iterator Documentation
+There are many additional built-in array methods, a complete list of which is on the MDN’s Array iteration methods page.
+
+The documentation for each method contains several sections:
+
+A short definition.
+A block with the correct syntax for using the method.
+A list of parameters the method accepts or requires.
+The return value of the function.
+An extended description.
+Examples of the method’s use.
+Other additional information.
+
+visit here for the coding solution:
+https://gist.github.com/c3193aa97018d846984b7549c7ba9ce0
