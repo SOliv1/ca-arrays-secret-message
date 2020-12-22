@@ -3,6 +3,8 @@
 Objective
 ## LEARN JAVASCRIPT  - Coding Methods
 
+Docs here : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Iteration_methods
+
 ### Secret Message
 Using array methods, you will transform an array of strings into a secret message!
 You should consult the *Mozilla Developer Network (MDN)* 
