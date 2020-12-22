@@ -1,4 +1,4 @@
-# ca-arrays-secret-message
+# ca-arrays-secret-message(s)
 
 Objective
 ## LEARN JAVASCRIPT  - Coding Methods
