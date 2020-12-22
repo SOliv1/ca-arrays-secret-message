@@ -86,4 +86,4 @@ Examples of the method’s use.
 Other additional information.
 
 visit here for the coding solution:
-https://gist.github.com/c3193aa97018d846984b7549c7ba9ce0
+https://gist.github.com/fad7217f6202efcb190cb80e636b9c72
