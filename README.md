@@ -1,7 +1,8 @@
 # ca-arrays-secret-message
 
 Objective
-## LEARN JAVASCRIPT
+## LEARN JAVASCRIPT  - Coding Methods
+
 ### Secret Message
 Using array methods, you will transform an array of strings into a secret message!
 You should consult the *Mozilla Developer Network (MDN)* 
@@ -21,3 +22,18 @@ The second iterator we’re going to cover is .map(). When .map() is called on a
 
 visit here for the coding solution:
 https://gist.github.com/5701205819e719608bf44438fc107f2c
+
+
+### The .filter() Method
+Another useful iterator method is .filter(). Like .map(), .filter() returns a new array. However, .filter() returns an array of elements after filtering out certain elements from the original array. The callback function for the .filter() method should return true or false depending on the element that is passed to it. The elements that cause the callback function to return true are added to the new array. Take a look at the following example:
+
+.
+>const words = ['chair', 'music', 'pillow', 'brick', 'pen', 'door']; 
+ 
+>const shortWords = words.filter(word => {
+>  return word.length < 6;
+>});
+>
+
+visit here for the coding solution:
+https://gist.github.com/f56795e2e52e0698621f9d7f6ec9911c
